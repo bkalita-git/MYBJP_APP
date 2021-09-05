@@ -1,0 +1,92 @@
+DIR "my_bjp"
+	>local.properties ------------------------------------------------------------------------------000
+	>pubspec.yaml	  ------------------------------------------------------------------------------001
+	DIR "android"
+		>build.gradle 	     -------------------------------------------------------------------010
+		>gradle.properties   -------------------------------------------------------------------011
+		>key.properties	     -------------------------------------------------------------------012
+		>local.properties    -------------------------------------------------------------------013
+		>settings.gradle     -------------------------------------------------------------------014
+		>settings_aar.gradle -------------------------------------------------------------------015
+		DIR "gradle"
+			DIR "wrapper"
+				>gradle-wrapper.properties ---------------------------------------------020
+		DIR "app"
+			>build.gradle 		--------------------------------------------------------030
+			>google-services.json   --------------------------------------------------------031
+			DIR "src"
+				DIR "debug"
+					>AndroidManifest.xml	   -------------------------------------040
+				DIR "profile"
+					>AndroidManifest.xml	   -------------------------------------050
+				DIR "main"
+					>ic_launcher-playstore.png -------------------------------------060
+					>AndroidManifest.xml	   -------------------------------------061
+					DIR "java"
+						DIR "io"
+							DIR "flutter"
+								DIR "plugins"
+									>GeneratedPluginRegistrant.java-070
+					DIR "res"
+						DIR "drawable"
+							>app_icon.png		------------------------080
+							>flower.xml		------------------------081
+							>jaapi.xml		------------------------082
+							>launch_screen.xml	------------------------083
+							>logo.xml		------------------------084
+							>notification_logo.png  ------------------------085
+							>test_logo1.png		------------------------086
+						DIR "drawable-mdpi"
+							>splash.png		------------------------090
+						DIR "drawable-hdpi"
+							>splash.png		------------------------100
+						DIR "drawable-xhdpi"
+							>splash.png		------------------------110
+						DIR "drawable-xxhdpi"
+							>splash.png		------------------------120
+						DIR "drawable-xxxhdpi"
+							>splash.png		------------------------130
+						DIR "mipmap-anydpi-v26"
+							>ic_launcher.xml	------------------------140
+							>ic_launcher_round.xml	------------------------141
+						DIR "mipmap-mdpi"
+							>ic_launcher.png	    --------------------150
+							>ic_launcher_background.png --------------------151
+							>ic_launcher_foreground.png --------------------152
+							>ic_launcher_round.png	    --------------------153
+						DIR "mipmap-hdpi"
+							>ic_launcher.png	    --------------------160
+							>ic_launcher_background.png --------------------161
+							>ic_launcher_foreground.png --------------------163
+							>ic_launcher_round.png	    --------------------164
+						DIR "mipmap-xhdpi"
+							>ic_launcher.png	    --------------------170
+							>ic_launcher_background.png --------------------171
+							>ic_launcher_foreground.png --------------------172
+							>ic_launcher_round.png	    --------------------173
+						DIR "mipmap-xxhdpi"
+							>ic_launcher.png	    --------------------180
+							>ic_launcher_background.png --------------------181
+							>ic_launcher_foreground.png --------------------182
+							>ic_launcher_round.png	    --------------------183
+						DIR "mipmap-xxxhdpi"
+							>ic_launcher.png	    --------------------190
+							>ic_launcher_background.png --------------------191
+							>ic_launcher_foreground.png --------------------192
+							>ic_launcher_round.png	    --------------------193
+						DIR "values"
+							>colors.xml		    --------------------200
+							>styles.xml		    --------------------201
+					DIR "kotlin"
+						DIR "MyBJP"
+							DIR "my_bjp"
+								>MainActivity.kt    --------------------210
+								
+/home/bipul/key.jks	--------------------------------------------------------------------------------220
+
+
+000
+sdk.dir=/home/common/Programs/Arch_linux/android
+
+001
+
