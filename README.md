@@ -1,2 +1,2 @@
 # MYBJP_APP
-[![](md_src/MobDemo.png)]
+![](md_src/MobDemo.png)
